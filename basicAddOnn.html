@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers</title>
+
+    <style>
+        body{
+            /* background-image: url("https://images.unsplash.com/photo-1486639107311-064febaff1c5?q=80&w=2305&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover; */
+            background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+        }
+
+        /* .theme body{
+            background-image: url("https://images.unsplash.com/photo-1495287924875-c158d2e8aafc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D");
+            background-size: cover; }*/
+        
+
+        h1{
+            text-align: center;
+            color:#4D869C;
+        }
+        h2{
+            text-align: center;
+            color:#4D869C;
+        }
+        /* img{
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 200px;
+            padding: 10px;
+            border-radius:20px;
+            transition: all 900ms ease-in-out;
+        } */
+
+        img{
+            max-width: 100%;
+         
+           
+        }
+        
+
+        
+        .container{
+           
+            margin: 0 auto;
+            background-color :#B1AFFF;
+            /* margin: 10px auto; */
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;}
+        
+            .grid{
+                margin: 15px 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-gap: 10px;
+                
+            }
+
+            .grid img{
+                width : 100%;
+                height: 300px;
+                border-radius: 8px;
+                transition: all 900ms ease-in-out;
+            }
+
+            .grid img:hover{
+                transform: scale(1.5);
+            }
+
+            .first-img{
+                border-radius: 12px;
+                transition: all 600ms ease-in-out;
+            }
+            .first-img:hover{
+                filter: contrast(70%);
+                transform: scale(1.2);
+            }
+           
+
+            
+      
+    
+
+        p{
+            text-align: center;
+            border: 1px solid #640D6B;
+            color: #640D6B;
+            font-size: 18px;
+            padding: 20px 10px;
+            border-radius: 8px;
+        }
+        button{
+            padding: 8px;
+            background-color: #B1AFFF;
+            color: whitesmoke;
+            font-size: 20px;
+            display: block;
+            margin: 70px auto;
+            border-radius: 6px;
+            
+        }
+
+        button:hover{
+            transition: All 200ms ease-in-out;
+            background-color: #FF5C8D;
+            color: whitesmoke;
+        }
+
+        .dark{  
+            padding: 6px;
+            background-color: #B1AFFF;
+            color: whitesmoke;
+            font-size: 15px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 6px;
+            
+        }
+
+        .dark:hover{
+            transition: All 200ms ease-in-out;
+            background-color:#FF5C8D;
+            color: white;
+        }
+        span{
+            color: #640D6B;
+        }
+
+        footer{
+            color: #640D6B;
+            text-align: center;
+            margin: 20px 20px;}
+        
+        .theme{
+            background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+            color: white;
+            
+        }
+        
+        .theme .container{
+            background-color: #2E236C;
+        }
+        .theme button{
+            background-color: #640D6B;
+        }
+        .theme p{
+            color: white;
+        }
+        .theme body{
+            background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+        }
+        .theme h1{
+            color: white;
+        }
+        .theme h2{
+            color:white
+        }
+        .theme span{
+            color: plum;
+        }
+        .theme a{
+            color:plum;
+        }
+
+        a{
+            color: #640D6B;
+            font-size: 20px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+        <button id="themeBtn" class="dark">Dark theme</button>
+
+        <h1>Flower photography</h1>
+
+        <h2>One of my <span>favourite hobbies</span> </h2>
+
+        <div class="container">
+            <img src="https://wallpapers.com/images/hd/1920x1080-hd-flower-twin-i46rx8pgih0hixgc.jpg " class="first-img"/>
+            <div class="grid">
+                <img src="https://i.pinimg.com/564x/12/13/3e/12133eff6a02006ebc38a640c074fecc.jpg"/>
+                <img src="https://i.pinimg.com/474x/63/54/54/6354545aecf97f9d161b10c18b53c7dd.jpg"/>
+                <img src="https://i.pinimg.com/474x/16/4e/0c/164e0c98b48d73578734388aee5baecd.jpg"/>
+                <img src="https://i.pinimg.com/564x/91/82/56/9182561e7264461b4b935da273e33232.jpg" />
+                <!-- <img src="https://i.pinimg.com/564x/77/5b/83/775b831a0717bc8a6e1e8e0710b232c2.jpg" /> -->
+            
+        </div>
+
+        <p>
+            Flowers are a naturally photogenic subject matter — a joyful expression of colours, textures and shapes.<br>
+            Photographing flowers celebrates the beauty of plants and is an effective way to get better at various photography skills. <br>
+            It’s a great place for beginners to start, but it can also be very advanced,” says photographer Derek Boyd.<br>
+            It’s like that saying, ‘Easy to learn, hard to master.’” But by paying attention to the angle, framing, <br>
+            lighting and editing of your shots, you can go from simple flower pictures to beautiful images of blooms that stir emotions and evoke a second glance.
+        </p>
+        <a href="https://www.gardenandhome.co.za/gardening/where-to-go-flower-picking-this-summer/">Flower picking spots</a>
+
+        <button id="bookingBtn">Photographing class</button>
+    </div>
+    <footer>Coded by Thando</footer>
+
+
+
+
+
+    <script>
+        function bookButton(){
+            let name = prompt("What is your name ? ")
+            let email = prompt("What is your email? ")
+            
+            if (email.length > 0){
+                alert(" Thank you " + name +"! we will be in touch by email ")
+            } else {
+                alert('No email input')
+            }
+        }
+        let button = document.getElementById("bookingBtn");
+        button.addEventListener("click", bookButton);
+        
+
+        function changeTheme() {
+            let body = document.querySelector("body");
+            body.classList.toggle("theme")
+    
+        }
+
+        let darkThemeButton = document.querySelector(".dark");
+        darkThemeButton.addEventListener("click", changeTheme);
+
+    </script>
+</body>
+</html>
